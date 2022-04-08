@@ -282,7 +282,7 @@ import * as fcl from "@onflow/fcl";
 
 fcl
   .config()
-  .put("accessNode.api", "https://access-testnet.onflow.org")
+  .put("accessNode.api", "https://rest-testnet.onflow.org")
   .put("0xFlowToken", "0x7e60df042a9c0868");
 
 async function myScript() {
@@ -306,7 +306,7 @@ import * as fcl from "@onflow/fcl";
 fcl
   .config()
   .put("env", "testnet")
-  .put("accessNode.api", "https://access-testnet.onflow.org")
+  .put("accessNode.api", "https://rest-testnet.onflow.org")
   .put("discovery.wallet", "https://fcl-discovery.onflow.org/testnet/authn")
   .put("app.detail.title", "Test Harness")
   .put("app.detail.icon", "https://i.imgur.com/r23Zhvu.png")
@@ -343,7 +343,7 @@ Calling this method will authenticate the current user via any wallet that suppo
 import * as fcl from "@onflow/fcl";
 fcl
   .config()
-  .put("accessNode.api", "https://access-testnet.onflow.org")
+  .put("accessNode.api", "https://rest-testnet.onflow.org")
   .put("discovery.wallet", "https://fcl-discovery.onflow.org/testnet/authn");
 // anywhere on the page
 fcl.authenticate();
@@ -373,7 +373,7 @@ Logs out the current user and sets the values on the [current user](#currentuser
 
 ```javascript
 import * as fcl from "@onflow/fcl";
-fcl.config().put("accessNode.api", "https://access-testnet.onflow.org");
+fcl.config().put("accessNode.api", "https://rest-testnet.onflow.org");
 // first authenticate to set current user
 fcl.authenticate();
 // ... somewhere else & sometime later
