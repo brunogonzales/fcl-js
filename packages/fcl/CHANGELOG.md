@@ -1,5 +1,16 @@
 ## 1.0.0-alpha.1
 
+## 1.0.0-alpha.2
+
+### Patch Changes
+
+- f7a985b3: **BREAKING** Remove deprecated block builders, interaction types and send methods.
+- Updated dependencies [7287ff14]
+- Updated dependencies [9c191c15]
+- Updated dependencies [f7a985b3]
+  - @onflow/sdk@1.0.0-alpha.1
+  - @onflow/config@1.0.0-alpha.1
+
 ### Minor Changes
 
 - 21a2dda: Import Buffer from rlp in encode-account-proof

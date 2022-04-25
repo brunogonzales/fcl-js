@@ -1,5 +1,13 @@
 ## Unreleased
 
+## 1.0.0-alpha.1
+
+### Patch Changes
+
+- 7287ff14: Add blockId to GetTransactionStatus response
+- 828a7b2b: Expose error returned from AN through HTTPRequestError
+- f7a985b3: **BREAKING** Remove deprecated block builders, interaction types and send methods.
+
 - 2022-04-05 -- **BREAKING** [@chasefleming](https://github.com/chasefleming): Remove the following from block response:
 
   - `block.collectionGuarantees.signatures`

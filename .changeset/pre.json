@@ -16,11 +16,17 @@
     "@onflow/util-logger": "0.0.1",
     "@onflow/util-node-http-modules": "0.0.1",
     "@onflow/util-template": "0.0.1",
-    "@onflow/util-uid": "0.0.1"
+    "@onflow/util-uid": "0.0.1",
+    "@onflow/config": "1.0.0-alpha.0"
   },
   "changesets": [
+    "blue-pianos-search",
+    "clever-seals-own",
+    "green-garlics-lick",
     "heavy-cats-draw",
     "heavy-rabbits-hear",
+    "late-hounds-judge",
+    "rich-cheetahs-occur",
     "spicy-wombats-taste"
   ]
 }
